@@ -56,3 +56,63 @@ nav a{
 nav a:hover{
    background:#e7f3ec;
 }
+
+
+.active{
+   background:#2f7d67;
+   color:white;
+}
+.title{
+   text-align:center;
+   color:#2f7d67;
+   font-size:65px;
+   margin-top:45px;
+   margin-bottom:30px;
+   font-weight:500;
+   letter-spacing:2px;
+}
+
+
+/* MAIN CONTAINER */
+
+
+.main-container{
+   display:flex;
+   justify-content:center;
+   gap:50px;
+   padding:40px;
+   flex-wrap:wrap;
+}
+
+
+/* LEFT CARD */
+
+
+.left-card{
+   background:#dcefe4;
+   width:360px;
+   border-radius:40px;
+   padding:35px;
+   text-align:center;
+   box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+/* IMAGE */
+
+
+.plant-image{
+   width:auto;
+   height:auto;
+   background:white;
+   border-radius:25px;
+   overflow:hidden;
+   margin:auto auto;
+   padding:12px 22px;
+}
+
+.plant-image img{
+   width:auto;
+   height:auto;
+   object-fit:cover;
+}
