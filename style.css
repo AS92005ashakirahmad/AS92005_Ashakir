@@ -4,12 +4,12 @@ body{
    background:#f3f7f4;
    font-family:Arial, sans-serif;
 }
+
 main{
    padding-top:20px;
 }
 
 /* HEADER */
-
 header{
    background:white;
    display:flex;
@@ -20,6 +20,7 @@ header{
    position:sticky;
    top:0;
 }
+
 /* LOGO */
 .logo{
    color:#2f7d67;
@@ -27,6 +28,7 @@ header{
    font-weight:bold;
    letter-spacing:2px;
 }
+
 /* NAVIGATION */
 .nav-container{
    background:white;
@@ -35,13 +37,11 @@ header{
    padding:10px 20px;
 }
 
-
 nav{
    display:flex;
    align-items:center;
    gap:10px;
 }
-
 
 nav a{
    text-decoration:none;
@@ -52,16 +52,15 @@ nav a{
    transition:0.3s;
 }
 
-
 nav a:hover{
    background:#e7f3ec;
 }
-
 
 .active{
    background:#2f7d67;
    color:white;
 }
+
 .title{
    text-align:center;
    color:#2f7d67;
@@ -72,35 +71,7 @@ nav a:hover{
    letter-spacing:2px;
 }
 
-
-/* MAIN CONTAINER */
-
-
-.main-container{
-   display:flex;
-   justify-content:center;
-   gap:50px;
-   padding:40px;
-   flex-wrap:wrap;
-}
-
-
-/* LEFT CARD */
-
-
-.left-card{
-   background:#dcefe4;
-   width:360px;
-   border-radius:40px;
-   padding:35px;
-   text-align:center;
-   box-shadow:0 5px 20px rgba(0,0,0,0.08);
-}
-
-
 /* IMAGE */
-
-
 .plant-image{
    width:auto;
    height:auto;
@@ -117,36 +88,6 @@ nav a:hover{
    object-fit:cover;
 }
 
-
-/* RIGHT CARD */
-.right-card{
-   background:#dcefe4;
-   width:550px;
-   border-radius:40px;
-   padding:45px;
-   box-shadow:0 5px 20px rgba(0,0,0,0.08);
-}
-
-
-/* BUTTON */
-
-
-.green-button{
-   background:#2d7d68;
-   color:white;
-   border:none;
-   padding:16px 30px;
-   border-radius:30px;
-   font-size:16px;
-   cursor:pointer;
-   margin-top:25px;
-   transition:0.3s;
-}
-
-
-.green-button:hover{
-   background:#1f5d4d;
-}
 .plant-image{
    background:white;
    height:250px;
@@ -155,19 +96,13 @@ nav a:hover{
    margin:20px 0;
 }
 
-
 .plant-image img{
    width:100%;
    height:100%;
    object-fit:cover;
 }
 
-
-
-
 /* FOOTER */
-
-
 footer{
    background:#2d7d68;
    color:white;
@@ -176,8 +111,6 @@ footer{
    margin-top:50px;
 }
 /* DISCOVER PAGE */
-
-
 .discover-container{
    display:flex;
    justify-content:center;
@@ -185,8 +118,6 @@ footer{
    margin-top:50px;
    flex-wrap:wrap;
 }
-
-
 .discover-card{
    background:#dcefe4;
    width:250px;
@@ -196,8 +127,6 @@ footer{
    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 /* LAST SEEN PAGE */
-
-
 .lastseen-container{
    display:flex;
    justify-content:center;
@@ -205,8 +134,6 @@ footer{
    margin-top:50px;
    flex-wrap:wrap;
 }
-
-
 .plant-card-small{
    background:#dcefe4;
    width:250px;
@@ -216,15 +143,11 @@ footer{
    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 /* HELP PAGE */
-
-
 .help-container{
    display:flex;
    justify-content:center;
    margin-top:50px;
 }
-
-
 .help-card{
    background:#dcefe4;
    width:600px;
@@ -234,8 +157,6 @@ footer{
    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 /* MY JOURNEY NEW DESIGN */
-
-
 .main-container{
    display:flex;
    justify-content:center;
@@ -243,8 +164,6 @@ footer{
    margin-top:50px;
    flex-wrap:wrap;
 }
-
-
 .plant-card{
    background:#dcefe4;
    border-radius:35px;
@@ -252,19 +171,13 @@ footer{
    width:620px;
    box-shadow:0 4px 15px rgba(0,0,0,0.06);
 }
-
-
 .plant-top{
    display:flex;
    gap:25px;
 }
-
-
 .plant-info h2{
    color:#2f7d67;
 }
-
-
 .health-box{
    border:1px solid #7ea795;
    border-radius:25px;
@@ -274,8 +187,6 @@ footer{
    color:#2f7d67;
    font-size:14px;
 }
-
-
 .description-box{
    background:#bfe3cf;
    margin-top:25px;
@@ -285,15 +196,11 @@ footer{
    line-height:1.8;
    color:#2f7d67;
 }
-
-
 .right-side{
    display:flex;
    flex-direction:column;
    gap:30px;
 }
-
-
 .streak-box{
    background:#ffd6bf;
    border-radius:35px;
@@ -301,13 +208,11 @@ footer{
    padding:30px;
    text-align:center;
 }
-
-
 .watering-box{
    background:#d8eeff;
    border-radius:35px;
    width:260px;
    padding:30px;
    text-align:center;
-
+}
 
