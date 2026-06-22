@@ -116,3 +116,198 @@ nav a:hover{
    height:auto;
    object-fit:cover;
 }
+
+
+/* RIGHT CARD */
+.right-card{
+   background:#dcefe4;
+   width:550px;
+   border-radius:40px;
+   padding:45px;
+   box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+/* BUTTON */
+
+
+.green-button{
+   background:#2d7d68;
+   color:white;
+   border:none;
+   padding:16px 30px;
+   border-radius:30px;
+   font-size:16px;
+   cursor:pointer;
+   margin-top:25px;
+   transition:0.3s;
+}
+
+
+.green-button:hover{
+   background:#1f5d4d;
+}
+.plant-image{
+   background:white;
+   height:250px;
+   border-radius:25px;
+   overflow:hidden;
+   margin:20px 0;
+}
+
+
+.plant-image img{
+   width:100%;
+   height:100%;
+   object-fit:cover;
+}
+
+
+
+
+/* FOOTER */
+
+
+footer{
+   background:#2d7d68;
+   color:white;
+   text-align:center;
+   padding:20px;
+   margin-top:50px;
+}
+/* DISCOVER PAGE */
+
+
+.discover-container{
+   display:flex;
+   justify-content:center;
+   gap:30px;
+   margin-top:50px;
+   flex-wrap:wrap;
+}
+
+
+.discover-card{
+   background:#dcefe4;
+   width:250px;
+   padding:30px;
+   border-radius:30px;
+   text-align:center;
+   box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+/* LAST SEEN PAGE */
+
+
+.lastseen-container{
+   display:flex;
+   justify-content:center;
+   gap:30px;
+   margin-top:50px;
+   flex-wrap:wrap;
+}
+
+
+.plant-card-small{
+   background:#dcefe4;
+   width:250px;
+   padding:30px;
+   border-radius:30px;
+   text-align:center;
+   box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+/* HELP PAGE */
+
+
+.help-container{
+   display:flex;
+   justify-content:center;
+   margin-top:50px;
+}
+
+
+.help-card{
+   background:#dcefe4;
+   width:600px;
+   padding:40px;
+   border-radius:30px;
+   text-align:center;
+   box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+/* MY JOURNEY NEW DESIGN */
+
+
+.main-container{
+   display:flex;
+   justify-content:center;
+   gap:40px;
+   margin-top:50px;
+   flex-wrap:wrap;
+}
+
+
+.plant-card{
+   background:#dcefe4;
+   border-radius:35px;
+   padding:30px;
+   width:620px;
+   box-shadow:0 4px 15px rgba(0,0,0,0.06);
+}
+
+
+.plant-top{
+   display:flex;
+   gap:25px;
+}
+
+
+.plant-info h2{
+   color:#2f7d67;
+}
+
+
+.health-box{
+   border:1px solid #7ea795;
+   border-radius:25px;
+   padding:12px;
+   display:inline-block;
+   background:white;
+   color:#2f7d67;
+   font-size:14px;
+}
+
+
+.description-box{
+   background:#bfe3cf;
+   margin-top:25px;
+   padding:25px;
+   border-radius:25px;
+   text-align:center;
+   line-height:1.8;
+   color:#2f7d67;
+}
+
+
+.right-side{
+   display:flex;
+   flex-direction:column;
+   gap:30px;
+}
+
+
+.streak-box{
+   background:#ffd6bf;
+   border-radius:35px;
+   width:260px;
+   padding:30px;
+   text-align:center;
+}
+
+
+.watering-box{
+   background:#d8eeff;
+   border-radius:35px;
+   width:260px;
+   padding:30px;
+   text-align:center;
+
+
