@@ -127,19 +127,20 @@ footer{
    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 /* LAST SEEN PAGE */
-.lastseen-container{
-   display:flex;
+.last seen-container {
+   display: flex;
    justify-content:center;
-   gap:30px;
-   margin-top:50px;
-   flex-wrap:wrap;
+   gap: 50px;
+   margin-top: 50px;
+   flex-wrap: wrap;
 }
 .plant-card-small{
    background:#dcefe4;
-   width:250px;
-   padding:30px;
+   width:180px;
+   padding:50px;
    border-radius:30px;
-   text-align:center;
+   text-align: center;
+   justify-content:center;
    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 /* HELP PAGE */
