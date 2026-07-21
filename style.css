@@ -1,11 +1,7 @@
 body{
    margin:0;
    background:#f3f7f4;
-   font-family:Arial, sans-serif;
-}
-
-main{
-   padding-top:20px;
+   font-family:"Trebuchet MS", Arial, sans-serif;
 }
 
 header{
@@ -13,17 +9,29 @@ header{
    display:flex;
    justify-content:space-between;
    align-items:center;
-   padding:25px 60px;
-   box-shadow:0 2px 10px rgba(0,0,0,0.08);
-   position:sticky;
-   top:0;
+   padding:20px 50px;
+   border-bottom:2px solid #eeeeee;
+
 }
 
-.logo{
+.logo img{
+   width:55px;
+}
+
+
+.logo h2{
    color:#2f7d67;
-   font-size:34px;
-   font-weight:bold;
-   letter-spacing:2px;
+}
+
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+color:#2f7d67;
+font-size:22px;
+font-weight:bold;
+letter-spacing:2px;
 }
 
 .nav-container{
@@ -60,6 +68,7 @@ nav a:hover{
 .main-container{
    display:flex;
    justify-content:center;
+   align-items:flex-start;
    gap:30px;
    margin-top:40px;
    flex-wrap:wrap;
@@ -70,7 +79,7 @@ nav a:hover{
    max-width:90%;
    padding:30px;
    width:650px;
-   box-shadow:0 4px 15px rgba(0,0,0,0.06);
+   box-shadow:0 3px 10px rgba(0,0,0,0.06);
 }
 .plant-top{
    display:flex;
@@ -122,18 +131,36 @@ nav a:hover{
 .streak-box h3{
   color:#000000;
   }
+.streak-box h1{
+   color:#ff7a2f;
+   font-size:70px;
+   margin:10px;
+}
+
 .watering-box{
  background:#d8eeff;
    border-radius:35px;
-   width:260px;
-   padding:30px;
+   width:250px;
+   padding:20px;
    text-align:center;
   }
 
+  .watering-box h3{
+   color:#2f7dff;
+}
+
+.watering-box h2{
+   color:#2f7dff;
+}
+
+.watering-box p{
+   color:#2f7dff;
+}
+
 .title{
+   font-family:Georgia, serif;
    text-align:center;
    color:#2f7d67;
-   font-size:65px;
    margin-top:45px;
    margin-bottom:30px;
    font-weight:500;
@@ -143,6 +170,7 @@ nav a:hover{
 .plant-image{
    width:100%;
    height:100%;
+   object-fit:cover;
    background:white;
    border-radius:25px;
    overflow:hidden;
@@ -208,21 +236,38 @@ footer{
    color:#444;
    line-height:1.7;
 }
-.last seen-container {
-   display: flex;
-   justify-content:center;
-   gap: 50px;
-   margin-top: 50px;
-   flex-wrap: wrap;
+.lastseen-container {
+display: flex;
+justify-content:center;
+gap: 50px;
+margin-top: 50px;
+flex-wrap: wrap;
 }
 .plant-card-small{
-   background:#dcefe4;
-   width:180px;
-   padding:50px;
-   border-radius:30px;
-   text-align: center;
-   justify-content:center;
-   box-shadow:0 2px 10px rgba(0,0,0,0.1);
+background:#dcefe4;
+width:180px;
+padding:25px;
+border-radius:30px;
+text-align: center;
+justify-content:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.plant-card-small img{
+   width:100%;
+   height:180px;
+   object-fit:cover;
+   border-radius:20px;
+   margin-bottom:15px;
+}
+
+.plant-card-small h2{
+   color:#2f7d67;
+}
+
+.plant-card-small p{
+   color:#444;
+   line-height:1.5;
 }
 
 .help-container{
