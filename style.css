@@ -1,9 +1,10 @@
+/*BODY*/
 body{
    margin:0;
    background:#f3f7f4;
    font-family:"Trebuchet MS", Arial, sans-serif;
 }
-
+/*HEADER*/
 header{
    background:white;
    display:flex;
@@ -11,9 +12,9 @@ header{
    align-items:center;
    padding:20px 50px;
    border-bottom:2px solid #eeeeee;
-
 }
 
+/*LOGO PART*/
 .logo img{
    width:55px;
 }
@@ -32,8 +33,9 @@ color:#2f7d67;
 font-size:22px;
 font-weight:bold;
 letter-spacing:2px;
-}
+}/*END OF LOGO PART*/
 
+/*NAVIGATION CONTAINER*/
 .nav-container{
    background:white;
    border:2px solid #d6d6d6;
@@ -60,11 +62,13 @@ nav a:hover{
    background:#e7f3ec;
 }
 
+
 .active{
    background:#2f7d67;
    color:white;
 }
-
+/*-MY JOURNEY-*/
+/*MAIN CONTAINER (MY JOURNEY)*/
 .main-container{
    display:flex;
    justify-content:center;
@@ -73,11 +77,32 @@ nav a:hover{
    margin-top:40px;
    flex-wrap:wrap;
 }
+
+/* WELCOME BOX*/
+.welcome-box{
+   background:#dcefe4;
+   width:80%;
+   margin:30px auto;
+   padding:25px;
+   border-radius:30px;
+   text-align:center;
+   box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.welcome-box h2{
+   color:#2f7d67;
+   margin-bottom:10px;
+}
+
+.welcome-box p{
+   color:#444;
+   line-height:1.6;
+}
+
 .plant-card{
    background:#dcefe4;
    border-radius:30px;
    max-width:90%;
-   padding:30px;
    width:650px;
    box-shadow:0 3px 10px rgba(0,0,0,0.06);
 }
@@ -98,7 +123,7 @@ nav a:hover{
    margin-top:5px;
 }
 .health-box{
-   margin-top: 5px;
+   margin-top: 20px;
    border:2px solid #7ea795;
    border-radius:25px;
    padding:10px 20px;
@@ -109,7 +134,7 @@ nav a:hover{
 }
 .description-box{
    background:#bfe3cf;
-   margin-top:25px;
+   margin-top:5px;
    padding:20px;
    border-radius:25px;
    text-align:center;
@@ -129,7 +154,7 @@ nav a:hover{
    text-align:center;
 }
 .streak-box h3{
-  color:#000000;
+  color:#ff7a2f;
   }
 .streak-box h1{
    color:#ff7a2f;
@@ -139,7 +164,7 @@ nav a:hover{
 
 .watering-box{
  background:#d8eeff;
-   border-radius:35px;
+   border-radius:30px;
    width:250px;
    padding:20px;
    text-align:center;
@@ -157,16 +182,6 @@ nav a:hover{
    color:#2f7dff;
 }
 
-.title{
-   font-family:Georgia, serif;
-   text-align:center;
-   color:#2f7d67;
-   margin-top:45px;
-   margin-bottom:30px;
-   font-weight:500;
-   letter-spacing:2px;
-}
-
 .plant-image{
    width:100%;
    height:100%;
@@ -174,7 +189,7 @@ nav a:hover{
    background:white;
    border-radius:25px;
    overflow:hidden;
-   margin:auto auto;
+   margin: 20px 0px;
    padding:12px 22px;
 }
 
@@ -186,6 +201,19 @@ footer{
    margin-top:50px;
 }
 
+/*TITLE*/
+.title{
+   font-family:Georgia, serif;
+   text-align:center;
+   color:#2f7d67;
+   font-size:65px;
+   margin-top:45px;
+   margin-bottom:30px;
+   font-weight:500;
+   letter-spacing:2px;
+}
+
+/*DISCOVER*/
 .discover-container{
    display:flex;
    justify-content:center;
@@ -218,6 +246,7 @@ footer{
    line-height:1.5;
 }
 
+/*KAITIAKITANGA BOX*/
 .kaitiakitanga-box{
    background:#dcefe4;
    width:70%;
@@ -236,6 +265,8 @@ footer{
    color:#444;
    line-height:1.7;
 }
+
+/*LAST SEEN*/
 .lastseen-container {
 display: flex;
 justify-content:center;
@@ -270,6 +301,7 @@ box-shadow:0 2px 10px rgba(0,0,0,0.1);
    line-height:1.5;
 }
 
+/*HELP*/
 .help-container{
    display:flex;
    justify-content:center;
@@ -284,4 +316,22 @@ box-shadow:0 2px 10px rgba(0,0,0,0.1);
    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
+.help-card h2{
+   color:#2f7d67;
+}
+
+.help-card h3{
+   color:#2f7d67;
+   margin-top:25px;
+}
+
+.help-card p{
+   color:#444;
+   line-height:1.6;
+}
+
+.help-card hr{
+   margin:25px 0;
+   border:1px solid #cccccc;
+}
 
