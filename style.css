@@ -62,7 +62,7 @@ nav a:hover{
    background:#e7f3ec;
 }
 
-
+/*MAKES IT EASIER FOR THE USER TO SHOW ON WHICH PAGE HE IS IN*/
 .active{
    background:#2f7d67;
    color:white;
@@ -92,7 +92,7 @@ nav a:hover{
  transition: transform 0.2s ease;
 }
 
-
+/*SMALL TRANSITION AS POLISHING*/
 .card:hover {
  transform: translateY(-5px);
 }
@@ -217,7 +217,7 @@ footer{
  margin-bottom: 25px;
 }
 
-/* DISCOVER CARDS */
+/* DISCOVER PAGE*/
 .discover-container {
  display: flex;
  justify-content: center;
@@ -310,7 +310,7 @@ footer{
    line-height:1.7;
 }
 
-/*MORE*/
+/*MORE PAGE*/
 .more-container {
  flex-direction: column;
  align-items: center;
@@ -361,7 +361,7 @@ footer{
 }
 
 
-/*HELP*/
+/*HELP PAGE*/
 .help-container{
    display:flex;
    justify-content:center;
@@ -396,6 +396,7 @@ footer{
 }
 
 /* RESPONSIVE DESIGN */
+/* USED IT TO MAKE IT COMPATIBLE WITH EVERY SCREEN SIZES*/
 @media (max-width: 768px) {
  header {
    flex-direction: column;
