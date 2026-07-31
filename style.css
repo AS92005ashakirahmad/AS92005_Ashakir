@@ -5,14 +5,19 @@ body{
    font-family:"Trebuchet MS", Arial, sans-serif;
 }
 /*HEADER*/
-header{
-   background:white;
-   display:flex;
-   justify-content:space-between;
-   align-items:center;
-   padding:20px 50px;
-   border-bottom:2px solid #eeeeee;
+header {
+   background: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 50px;
+   border-bottom: 2px solid #eeeeee;
+   position: sticky;    /* Keeps nav bar at top while scrolling */
+   top: 0;
+   z-index: 1000;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
+
 
 /*LOGO PART*/
 .logo img{
@@ -360,6 +365,60 @@ footer{
  margin-bottom: 15px;
 }
 
+/* INTERACTIVE ACCORDION (PAGE 3 STATISTICS) */
+.stats-accordion-container {
+   width: 85%;
+   max-width: 950px;
+   margin: 20px auto 30px auto;
+}
+
+.stats-item {
+   background: #ffffff;
+   border: 2px solid #2f7d67;
+   border-radius: 18px;
+   margin-bottom: 15px;
+   padding: 18px 25px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.stats-item summary {
+   font-size: 19px;
+   font-weight: bold;
+   color: #2f7d67;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.stats-item summary::-webkit-details-marker {
+   display: none;
+}
+
+/* FLIPS THE ARROW 180 DEGREES WHEN CLICKED OPEN */
+.stats-item[open] .arrow {
+   transform: rotate(180deg);
+}
+
+.arrow {
+   transition: transform 0.3s ease;
+   font-size: 16px;
+   display: inline-block;
+}
+
+.stats-content {
+   margin-top: 12px;
+   padding-top: 12px;
+   border-top: 1px solid #dcefe4;
+   color: #444;
+   line-height: 1.6;
+}
+
+
+
+
 
 /*HELP PAGE*/
 .help-container{
@@ -398,8 +457,30 @@ footer{
 /* RESPONSIVE DESIGN */
 /* USED IT TO MAKE IT COMPATIBLE WITH EVERY SCREEN SIZES*/
 @media (max-width: 768px) {
- header {
-   flex-direction: column;
-   gap: 20px;
-   padding: 20px;
- }
+   header {
+      flex-direction: column;
+      gap: 15px;
+      padding: 15px;
+   }
+
+   /* Stacks the cards vertically on smaller mobile screens */
+   .more-card,
+   .more-card.reverse {
+      flex-direction: column !important;
+   }
+
+   .more-card img {
+      width: 100%;
+      height: 220px;
+   }
+
+   .more-content {
+      width: 100%;
+      padding: 20px;
+   }
+
+   .title {
+      font-size: 38px;
+   }
+}
+
